@@ -3,4 +3,17 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+
+    <string name="fleet_tracking">Fleet Tracking</string>
+    <string name="scan_items">Scan Item</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="remote_login">Login</string>
+    <string name="new_menu_item">Add New Menu Here</string>
+    <string name="title_activity_fleet_tracking">Map</string>
+    <string name="title_activity_item_scan">Scan Items</string>
+
+    <string name="btnQRScan">QR Code</string>
+    <string name="btnBarCodeScan">BarCode</string>
 </resources>

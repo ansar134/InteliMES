@@ -1,9 +1,14 @@
 package intellimes.com.intelimes;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import intellimes.com.intelimes.fleettracking.FleetTrackingActivity;
+import intellimes.com.intelimes.itemscanning.ItemScanActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,5 +38,17 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onClickFleetLayout(View view)
+    {
+        Intent intent = new Intent(this, FleetTrackingActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickScanItemLayout(View view)
+    {
+        Intent intent = new Intent(this, ItemScanActivity.class);
+        startActivity(intent);
     }
 }
